@@ -26,7 +26,7 @@ void loop()
 void setup()
 {
   wdt_disable(); // Desactivar el watchdog mientras se configura
-  wdt_enable(WDTO_2S); // Configurar watchdog a cuatro segundos
+  wdt_enable(WDTO_2S); // Configurar watchdog a dos segundos
   Serial.begin(9600); //Inicia el puerto serial
   Serial.println("En un reinicio");
   delay(1000); 
