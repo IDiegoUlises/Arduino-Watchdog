@@ -42,7 +42,7 @@ void loop()
   delay(3000); //Este delay es para producir el reinicio
 }
 ```
-## Argumento para wtd_enable()
+## Tiempo para wtd_enable()
 
 ```c++
 WDTO_15MS //15 milisegundos
@@ -56,3 +56,4 @@ WDTO_2S
 WDTO_4S
 WDTO_8S
 ```
+* Con esto se elige el tiempo en el cual saltara el watchdog
