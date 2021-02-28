@@ -1,4 +1,6 @@
-# Arduino-Watchdog
+# Arduino Watchdog
+
+El Watchdog o perro guardian es un timer que incorpora el arduino de forma independiente en el cual se debe actualizar el tiempo del contador en caso que no se actualize el tiempo salta el watchdog y reinicia el programa automaticamente.
 
 
 
