@@ -21,7 +21,7 @@ void loop()
 ```
 
 
-##  Demuestra lo que sucede que si el timer watchdog pasan mas de 2 segundos 
+##  Sucede que pasan mas de 2 segundos y se reinicia el programa 
 ```c++
 #include <avr/wdt.h> 
 
