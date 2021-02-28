@@ -6,7 +6,7 @@
 void setup()
 {
   wdt_disable(); 
-  wdt_enable(WDTO_4S);
+  wdt_enable(WDTO_4S); //Configurar el watchdog cada 4 segundos
                        
 }
  
