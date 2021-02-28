@@ -19,7 +19,7 @@ void loop()
 
 ## Codigo que demuestra lo que sucede que si el timer watchdog pasan mas de 4 segundos se reinicia
 ```c++
-#include <avr/wdt.h> // Incluir la librería que contiene el watchdog (wdt.h)
+#include <avr/wdt.h>
 
 void setup()
 {
@@ -35,5 +35,6 @@ void loop()
 {
   wdt_reset(); // Actualizar el watchdog para que no produzca un reinicio
   Serial.println("En ciclo loop");
+  delay(5000); //Esto es para producir el reinicio
 }
 ```
