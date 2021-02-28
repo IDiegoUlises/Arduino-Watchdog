@@ -35,7 +35,7 @@ void setup()
 
 void loop()
 {
-  wdt_reset(); // Actualizar el watchdog para que no produzca un reinicio
+  wdt_reset(); // Actualizar el watchdog
   Serial.println("En ciclo loop");
   delay(3000); //Este delay es para producir el reinicio
 }
