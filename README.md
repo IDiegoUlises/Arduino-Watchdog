@@ -2,8 +2,6 @@
 
 El Watchdog o perro guardian es un timer que incorpora el arduino de forma independiente en el cual se debe actualizar el tiempo del contador en caso que no se actualize el tiempo se reinicia el programa automaticamente.
 
-
-
 ```c++
 #include <avr/wdt.h>
  
@@ -56,4 +54,4 @@ WDTO_2S
 WDTO_4S
 WDTO_8S
 ```
-* Con esto se elige el tiempo en el cual saltara el watchdog
+* Con esto se elige el tiempo en el cual iniciara el Watchdog
