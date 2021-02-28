@@ -42,4 +42,17 @@ void loop()
   delay(3000); //Este delay es para producir el reinicio
 }
 ```
-* Si pasan mas de 2 segundos en programa sin actualizar el contador el programa se reincia
+## Argumento para wtd_enable()
+
+```c++
+WDTO_15MS //15 milisegundos
+WDTO_30MS
+WDTO_60MS
+WDTO_120MS
+WDTO_250MS
+WDTO_500MS
+WDTO_1S //1 segundo
+WDTO_2S
+WDTO_4S
+WDTO_8S
+```
