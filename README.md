@@ -21,7 +21,7 @@ void loop()
 ```
 
 
-## Codigo que demuestra lo que sucede que si el timer watchdog pasan mas de 4 segundos se reinicia
+##  Demuestra lo que sucede que si el timer watchdog pasan mas de 4 segundos sucede un reincio y es mostrado por el puerto serial
 ```c++
 #include <avr/wdt.h> 
 
